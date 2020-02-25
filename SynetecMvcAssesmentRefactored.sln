@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecMvcAssesmentRefactored", "SynetecMvcAssesmentRefactored\SynetecMvcAssesmentRefactored.csproj", "{E95D9F8A-A1A9-4DA1-99AA-F70207B8A0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecMvcAssesmentRefactored.Model", "SynetecMvcAssesmentRefactored.Model\SynetecMvcAssesmentRefactored.Model.csproj", "{C0D60445-9945-41EC-9C67-CCDF1EC3BC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecMvcAssessmentRefactored.IServices", "SynetecMvcAssessmentRefactored.IServices\SynetecMvcAssessmentRefactored.IServices.csproj", "{4E1E7B6E-6D9E-417B-95EB-F05BAC6242B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecMvcAssessmentRefactored.Services", "SynetecMvcAssessmentRefactored.Services\SynetecMvcAssessmentRefactored.Services.csproj", "{94F218DE-7539-43F0-8284-BDEC8AE6EE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecMvcAssesmentRefactored.IRepository", "SynetecMvcAssesmentRefactored.IRepository\SynetecMvcAssesmentRefactored.IRepository.csproj", "{318A6027-9514-40B7-8FF6-332D38CC4067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecMvcAssesmentRefactored.Repository", "SynetecMvcAssesmentRefactored.Repository\SynetecMvcAssesmentRefactored.Repository.csproj", "{3B37EFB6-7FE1-4124-A14A-4937657F0A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E95D9F8A-A1A9-4DA1-99AA-F70207B8A0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95D9F8A-A1A9-4DA1-99AA-F70207B8A0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95D9F8A-A1A9-4DA1-99AA-F70207B8A0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95D9F8A-A1A9-4DA1-99AA-F70207B8A0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D60445-9945-41EC-9C67-CCDF1EC3BC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D60445-9945-41EC-9C67-CCDF1EC3BC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D60445-9945-41EC-9C67-CCDF1EC3BC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D60445-9945-41EC-9C67-CCDF1EC3BC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1E7B6E-6D9E-417B-95EB-F05BAC6242B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1E7B6E-6D9E-417B-95EB-F05BAC6242B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1E7B6E-6D9E-417B-95EB-F05BAC6242B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1E7B6E-6D9E-417B-95EB-F05BAC6242B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F218DE-7539-43F0-8284-BDEC8AE6EE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F218DE-7539-43F0-8284-BDEC8AE6EE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F218DE-7539-43F0-8284-BDEC8AE6EE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F218DE-7539-43F0-8284-BDEC8AE6EE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318A6027-9514-40B7-8FF6-332D38CC4067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318A6027-9514-40B7-8FF6-332D38CC4067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318A6027-9514-40B7-8FF6-332D38CC4067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318A6027-9514-40B7-8FF6-332D38CC4067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B37EFB6-7FE1-4124-A14A-4937657F0A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B37EFB6-7FE1-4124-A14A-4937657F0A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B37EFB6-7FE1-4124-A14A-4937657F0A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B37EFB6-7FE1-4124-A14A-4937657F0A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56D6C677-02FB-4B2E-98D0-CDACE51D8F6D}
+	EndGlobalSection
+EndGlobal

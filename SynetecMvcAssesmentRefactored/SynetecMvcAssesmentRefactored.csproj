@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SynetecMvcAssesmentRefactored.Repository\SynetecMvcAssesmentRefactored.Repository.csproj" />
+    <ProjectReference Include="..\SynetecMvcAssessmentRefactored.IServices\SynetecMvcAssessmentRefactored.IServices.csproj" />
+    <ProjectReference Include="..\SynetecMvcAssessmentRefactored.Services\SynetecMvcAssessmentRefactored.Services.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

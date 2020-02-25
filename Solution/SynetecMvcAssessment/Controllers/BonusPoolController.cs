@@ -11,16 +11,13 @@ namespace InterviewTestTemplatev2.Controllers
 {
     public class BonusPoolController : Controller
     {
-
         private MvcInterviewV3Entities1 db = new MvcInterviewV3Entities1();
 
         // GET: BonusPool
         public ActionResult Index()
         {
             BonusPoolCalculatorModel model = new BonusPoolCalculatorModel();
-
             model.AllEmployees = db.HrEmployees.ToList<HrEmployee>();
-            
             return View(model);
         }
 
@@ -28,9 +25,6 @@ namespace InterviewTestTemplatev2.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Calculate(BonusPoolCalculatorModel model)
         {
-
-            
-
             int selectedEmployeeId = model.SelectedEmployeeId;
             int totalBonusPool = model.BonusPoolAmount;
 

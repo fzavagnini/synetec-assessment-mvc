@@ -16,7 +16,7 @@ namespace InterviewTestTemplatev2.Data
     public partial class MvcInterviewV3Entities1 : DbContext
     {
         public MvcInterviewV3Entities1()
-            : base("name=MvcInterviewV3Entities1")
+            : base("name=SynetecMvcDb")
         {
         }
     

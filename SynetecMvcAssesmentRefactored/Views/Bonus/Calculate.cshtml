@@ -1,0 +1,12 @@
+﻿@model SynetecMvcAssesmentRefactored.Model.Core.BonusPoolCalculatorResultModel
+
+@{
+    ViewData["Title"] = "Calculate";
+}
+<h1>@ViewData["Title"]</h1>
+
+<h2>Bonus Pool Allocation</h2>
+
+<p>The bonus pool allocation for @Html.DisplayFor(model => model.HrEmployee.Full_Name) is: £@Html.DisplayFor(model => model.BonusPoolAllocation)</p>
+
+@Html.ActionLink("Click her to calculate for another employee", "Index")
